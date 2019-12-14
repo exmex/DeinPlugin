@@ -1,0 +1,10 @@
+name: FFA
+author: WeLoveSpigotPlugins
+version: 1.0
+main: de.spigotplugins.ffa.main.Main
+
+commands:
+  ffa:
+  shop:
+  nohitdelay:
+  

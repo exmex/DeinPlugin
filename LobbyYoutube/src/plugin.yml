@@ -1,0 +1,12 @@
+name: LobbySystem
+version: 1.0
+author: Anweisung
+main: lobbysystem.main.Main
+commands:
+  setspawn:
+  setspawn1:
+  setspawn2:
+  setspawn3:
+  setspawn4:
+  setspawn5:
+  setspawn6:

@@ -1,0 +1,6 @@
+name: BungeeSignSystem
+version: 0.1
+author: CoderPvP
+main: SignSystem.Main
+commands:
+  createsign:

@@ -1,0 +1,7 @@
+name: TrollPlugin
+version: 1.0
+author: WeLoveSpigotPlugins
+main: de.leitung.trollplugin.classes.Main
+
+commands: 
+  troll:

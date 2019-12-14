@@ -1,0 +1,7 @@
+name: Rank
+version: 1.0
+author: WeLoveSpigotPlugins
+main: setrank.Main
+
+commands:
+  setrank:

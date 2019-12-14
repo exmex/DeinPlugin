@@ -1,0 +1,136 @@
+#############################################################################################################
+#																											#
+# Moin! Ich stelle dir hier alle Einstellungsmöglichkeiten ausführlich vor und hoffe, dass es dir hilft.	#
+#  										Plugin by WeLoveSpigotPlugins										#
+#									https://youtube.com/welovespigotplugins									#
+#									   https://www.youtube.com/c/EJDARTV									#
+#																						 					#
+#############################################################################################################
+
+# Ändere hier die Zeichenfolge, welche vor jeder Nachricht stehen soll.
+Prefix: '&8| &3&lLOBBY &e&l>'
+
+# Falls der LobbyServer einen einzelnen Server bekommen soll, so stelle diese Einstellung auf 'true' (BungeeCord).
+# Ansonsten stellst du diese Einstellung auf 'false', damit auf diesem Server auch anderes geschehen kann (Spigot).
+BungeeCordModus: false
+
+# Wenn du möchtest, dass dieses Plugin Aktionen aufzeichnet (Nachrichten, Fehler, Griefversuche etc.) ,
+# die du anschließend in der logs.yml ablesen kannst, dann stelle diese Einstellung auf 'true'.
+PluginLogging: true
+
+# Falls ein Fehler aufgetreten ist (Falsche Einrichtung des Plugins etc.), welche das Plugin außer Kraft setzen KÖNNTE,
+# wird mit diesem Modus den Normalen Spielern der Zutritt zum Server verwehrt, sodass du keinerlei Angst haben musst,
+# dass dein Server darunter schaden nimmt. Außerdem wird dich das Plugin auf mögliche Fehleinstellungen hinweisen,
+# sofern du die Permission hast, welche du in den Folgenden Zeilen bearbeiten kannst.
+FehlerModus:
+  Aktiviert: true
+  Permission: 'LobbySystem.WarnJoin'
+  FehlerJoinMessage: '&cDu kannst diesen Server derzeit nicht betreten, da ein Fehler aufgetreten ist.'
+
+Join:
+  # Hier kannst du änderungen an einigen Messages vornehmen. Hierbei spielt es keine Rolle, ob der BungeeCordModus an ist, oder nicht.
+  # Du kannst natürlich deine Nachricht individuell anpassen. 
+  JoinMessageAktivieren: true
+  JoinMessage: '&e%PLAYER% &7hat den Server betreten!'
+  # Auf dem LobbyServer / GameServer wird eine Nachricht ausgegeben, falls ein neuer Spieler auf dem Server ist.
+  FirstJoinRundruf: true
+  # Sollen in der Firs
+  FirstJoinMessageFormat: '&6%PLAYER% &espielt zum ersten mal auf diesem &3Server! &8[%PLAYERNUMBER%&8]'
+  # Stelle ein, ob der Spieler beim Betreten des Servers geheilt werden soll, oder nicht.
+  HealOnJoin: true
+  # Stelle ein, wie viele Herzen man in der Lobby haben soll. (HealthScale)
+  # Bedenke, dass 1 Herz = 2 entspricht. ; 5 Herzen = 10 ; 10 Herzen = 20;
+  SpielerHerzen: 6
+  # Soll das Inventar von dem Spieler bei jedem Join geleert werden?
+  InventoryClearBeiJedemJoin: true
+  # Soll das Inventar beim FirstJoin gecleart werden?
+  InventoryClearBeiFirstJoin: true
+  # Stelle hier den GameMode ein, mit welchem die Spieler joinen sollen. Falls du diese Funktion NICHT
+  # nutzen möchtest, so schreibe einfach eine 10 in die Zeile.
+  # 0 = Survival ; 1 = Creative ; 2 = Adventure ; 3 = Spectator ; 10 = Funktion wird nicht beansprucht.
+  GameMode: 2
+  # Falls du dem Spieler einen Titel beim Joinen, senden möchtest, so konfiguriere diese Einstellung
+  Title:
+    Aktiviert: true
+    TitleOben: '&eWillkommen'
+    TitleUnten: '&6%PLAYER%'
+
+World:
+  # Hier wirst du einige Einstellungen bezüglich deiner Welt tätigen.
+  # Trage bitte hier die Lobby-Welt ein (WeltName). (/mv info).
+  # Achte ebenfalls auf Groß und Klein-Schreibung.
+  WeltName: '__LOBBY__WELT__'
+  Hunger:
+    # Golbal = Auf jeder Welt wird Hunger deaktiviert. 
+    Golbal: false
+    Aktiviert: false
+  Schaden:
+    Golbal: false
+    Aktiviert: false
+  Abbauen:
+    Golbal: false
+    Aktiviert: false
+  
+  
+#############################################################
+#						INVENTAR							#
+#############################################################
+
+Inventar:
+  SetLobbyItems: true
+  Navigator:
+    Aktiviert: true
+    ItemID: 345
+    DisplayName: '&6Navigator'
+    InventorySlot: 1
+    BrauchePermissions: false
+    Permission: 'LobbySystem.Navigator'
+  SpielerVerstecken:
+    Aktiviert: true
+    ItemID: 369
+    DisplayName: '&6Spieler Verstecken'
+    InventorySlot: 2
+    BrauchePermissions: false
+    Permission: 'LobbySystem.Spielerverstecken'
+  Gadgets:
+    Aktiviert: true
+    ItemID: 54
+    DisplayName: '&6Gadgets'
+    InventorySlot: 8
+    BrauchePermissions: false
+    Permission: 'LobbySystem.Gadgets'
+  Schutzschild:
+    Aktiviert: true
+    ItemID: 381
+    DisplayName: '&5Schutzschild'
+    InventorySlot: 6
+    BrauchePermissions: true
+    Permission: 'LobbySystem.YouTuber'
+  NickTool:
+    Aktiviert: true
+    ItemID: 421
+    DisplayName: '&5NickTool'
+    InventorySlot: 5
+    BrauchePermissions: true
+    Permission: 'LobbySystem.YouTuber'
+  Flugstab:
+    Aktiviert: false
+    ItemID: 288
+    DisplayName: '&6Flugstab'
+    InventorySlot: 6
+    BrauchePermissions: true
+    Permission: 'LobbySystem.Flugstab'
+  SilentLobby:
+    Aktiviert: true
+    ItemID: 46
+    DisplayName: '&5SilentHub'
+    InventorySlot: 4
+    BrauchePermissions: true
+    Permission: 'LobbySystem.SilentHub'
+  LobbySwitcher: 
+    Aktiviert: true
+    ItemID: 399
+    DisplayName: '&cLobbySwitcher'
+    InventorySlot: 9
+    BrauchePermissions: false
+    Permission: 'Lobby.LobbySwitcher'

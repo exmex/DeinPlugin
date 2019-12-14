@@ -1,0 +1,16 @@
+name: NickSystem
+author: CuzImTiger
+version: 1.0
+main: de.tiger.NickSystem.Main
+
+commands:
+  addNick:
+    usage: /{command}
+  addSkin:
+    usage: /{command}
+  removeNick:
+    usage: /{command}
+  removeskin:
+    usage: /{command}
+  Nick:
+    usage: /{command}

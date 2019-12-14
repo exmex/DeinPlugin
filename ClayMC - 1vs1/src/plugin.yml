@@ -1,0 +1,9 @@
+name: 1vs1
+author: CodeException
+main: de.codeexception.oneversusone.Main
+version: 1.0
+commands:
+     top:
+     build:
+     stats:
+     start:

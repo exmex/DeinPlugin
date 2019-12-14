@@ -1,0 +1,7 @@
+name: ClayUnity
+version: 1.0
+author: WeLoveSpigotPlugins
+main: de.community.main.Main
+commands:
+  setspawn:
+  jnr:

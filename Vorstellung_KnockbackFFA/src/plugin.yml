@@ -1,0 +1,10 @@
+name: KnockIT
+version: 1.0
+author: WeLoveSpigotPlugins
+main: spigotplugins.knockbackffa.main.Main
+
+commands:
+  setspawn:
+  changemap:
+  changekit:
+  stats:

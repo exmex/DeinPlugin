@@ -1,0 +1,10 @@
+name: EP-Breaker
+version: 2
+author: Regnatrix
+main: de.regnatrix.epbreaker.Main
+
+
+commands:
+  start:
+  stats:
+

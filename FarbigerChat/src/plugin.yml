@@ -1,0 +1,4 @@
+name: FarbigerChat
+version: 1.0
+author: WeLoveSpigotPlugins
+main: farbigerchat.classes.Main

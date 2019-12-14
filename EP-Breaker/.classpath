@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/regnatrix/Intellij IDEA/TitleAPI-1.7.4.jar"/>
+	<classpathentry kind="lib" path="/home/regnatrix/Intellij IDEA/spigot-1.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pascal Falk/Desktop/Programmieren/spigot.jar"/>
+	<classpathentry kind="output" path="out/production/EP-Breaker"/>
+</classpath>

@@ -1,0 +1,7 @@
+name: BridgeFighter
+version: 1.0
+author: WeLoveSpigotPlugins
+main: bridgefighter.main.Main
+
+commands:
+  setspawn:

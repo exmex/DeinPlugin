@@ -1,0 +1,6 @@
+name: JumpIT
+version: 1.0
+author: Leitung
+main: de.jumpit.main.Main
+commands:
+  setspawn:

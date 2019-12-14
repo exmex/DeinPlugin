@@ -1,0 +1,7 @@
+name: SoupPvP
+version: 1.0
+author: WeLoveSpigotPluginsAndTiger
+main: de.souppvp.main.Main
+
+commands:
+  setspawn:

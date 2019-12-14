@@ -1,0 +1,7 @@
+name: AntiCheat
+version: 1.0
+author: WeLoveSpigotPlugins
+main: de.spigotplugins.antihack.main.Main
+
+commands:
+  nb:

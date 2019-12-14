@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/de/tiger/NickSystem/Main.java=UTF-8
+encoding//src/de/tiger/NickSystem/commands/AddNick.java=UTF-8
+encoding//src/de/tiger/NickSystem/commands/Nick.java=UTF-8
+encoding//src/de/tiger/NickSystem/event/ChatEvent.java=UTF-8
+encoding//src/de/tiger/NickSystem/listener/PlayerJoinListener.java=UTF-8
+encoding//src/de/tiger/NickSystem/manager/NickManager.java=UTF-8
+encoding//src/de/tiger/NickSystem/manager/Scoreboard1.java=UTF-8
+encoding//src/de/tiger/NickSystem/message/German_Message.java=UTF-8

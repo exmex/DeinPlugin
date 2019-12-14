@@ -1,0 +1,4 @@
+name: ServerCore
+version: 1.0
+author: WeLoveSpigotPlugins
+main: servercore.main.Main

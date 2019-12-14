@@ -1,0 +1,7 @@
+name: TeamChat
+version: 1.0
+author: Leitung
+main: de.leitung.teamchat.classes.Main
+
+commands: 
+  tc:

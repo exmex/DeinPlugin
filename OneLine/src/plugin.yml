@@ -1,0 +1,8 @@
+name: OneLine
+version: 1.0
+autor: WeLoveSpigotPlugins
+main: oneline.main.Main
+
+commands: 
+  setspawn:
+  start:

@@ -1,0 +1,6 @@
+name: BedWarsShop
+version: 1.0
+author: WeLoveSpigotPlugins
+main: bedwarsshop.classes.Main
+commands: 
+  setshop:

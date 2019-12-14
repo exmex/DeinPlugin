@@ -1,0 +1,7 @@
+name: LobbyTicker
+version: 1.0
+author: Leitung
+main: de.leitung.classes.Main
+
+commands: 
+  getticker:

@@ -1,0 +1,4 @@
+name: BuilderHub
+version: 1.0
+author: WeLoveSpigotPlugins
+main: de.builderhub.spigotplugins.main.Main

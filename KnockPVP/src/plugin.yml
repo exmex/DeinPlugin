@@ -1,0 +1,8 @@
+name: KnockPvP
+version: 1.0
+author: Anweisung
+main: knockpvp.main.Main
+commands: 
+  setspawn:
+  sethigh:
+  addcoins:

@@ -1,0 +1,11 @@
+name: SkyWars
+author: WeLoveSpigotPlugins
+version: 1.0
+main: spigotplugins.skywars.main.Main
+depend: [StatsAPI]
+commands:
+  setspawn:
+  start:
+  addcoins:
+  stats:
+  top:

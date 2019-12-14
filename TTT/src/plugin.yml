@@ -1,0 +1,8 @@
+name: TTT
+version: 1.0
+author: WeLoveSpigotPlugins
+main: de.ttt.main.Main
+
+commands:
+  setspawn:
+  start:

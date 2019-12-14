@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="EP-Breaker">
+    <output-path>$USER_HOME$/Dokumente/Server</output-path>
+    <root id="archive" name="EP-Breaker.jar">
+      <element id="module-output" name="EP-Breaker" />
+    </root>
+  </artifact>
+</component>

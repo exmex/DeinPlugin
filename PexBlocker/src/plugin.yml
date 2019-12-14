@@ -1,0 +1,4 @@
+name: PexBlocker
+version: 1.0
+author: WeLoveSpigotPlugins
+main: blocker.classes.Main

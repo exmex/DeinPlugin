@@ -1,0 +1,22 @@
+name: Lobby
+author: Scriptless
+version: 1.0
+description: LobbySystem
+main: Main.Main
+commands:
+  spawnshop:
+    usage: /<command>
+    description: Spawns Shop
+  setserver:
+    description: Sets Spawn for Server
+    default: op
+    usage: /setserver <Name>
+  globalmute:
+    description: Globalmute
+    usage: /<command>
+  schutzschild:
+    description: Globalmute
+    usage: /<command>
+  get:
+    description: Get
+    usage: /<command>  

@@ -1,0 +1,8 @@
+name: SuperVanish
+version: 1.0
+author: Leitung
+main: de.leitung.superspecate.Main
+
+commands: 
+  vanish:
+  v:

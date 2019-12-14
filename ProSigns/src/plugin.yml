@@ -1,0 +1,7 @@
+name: ProSigns
+version: 1.0
+author: WeLoveSpigotPlugins
+main: prosigns.spigotplugins.main.Main
+
+commands:
+  sign:

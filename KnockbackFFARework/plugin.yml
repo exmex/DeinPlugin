@@ -1,0 +1,9 @@
+name: KnockbackFFA
+version: 1.0
+author: Leitung
+main: de.welovespigotplugins.knockbackffa.classes.main
+commands:
+  setspawn:
+  addcoins:
+  resetstats:
+  sethigh:

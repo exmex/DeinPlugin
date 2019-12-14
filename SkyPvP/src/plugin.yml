@@ -1,0 +1,14 @@
+name: Kitssss
+version: 0.1
+main: skypvp.main.main
+description: The official LobbySystem by DerToxien
+author: DerToxien
+commands:
+  setspawn:
+      description: The basic command!
+  kit:
+      description: The basic command!
+  wartungen:
+      description: The basic command!
+  spawn:
+      description: The basic command!

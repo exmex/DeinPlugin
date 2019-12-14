@@ -1,0 +1,8 @@
+name: SoupFFA
+version: 1.0
+author: WeLoveSpigotPlugins
+main: souppvp.main.Main
+
+commands:
+  setspawn:
+  startevent:

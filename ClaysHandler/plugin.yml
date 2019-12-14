@@ -1,0 +1,5 @@
+name: ClaysHandler
+version: 1.0
+author: Leitung
+main: de.leitung.clayshandler.classes.Main
+ 

@@ -1,0 +1,6 @@
+name: ServerSign
+version: 0.1
+author: CoderPvP
+main: ServerSystem.StatusSigns
+commands:
+  createsign:

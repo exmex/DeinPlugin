@@ -1,0 +1,6 @@
+name: BauEvent
+version: 1.0
+author: WeLoveSpigotPlugins
+main: bauevent.Main
+commands:
+  spawn:

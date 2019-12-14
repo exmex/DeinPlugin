@@ -1,0 +1,20 @@
+name: Freebuild
+author: Golgolex
+version: 1.0
+
+main: de.golgolex.freebuild.main.Main
+
+commands: 
+   addcoins:
+      permission: claymc.admin
+   setspawn:
+      permission: claymc.admin
+   sethome:
+      permission: claymc.sethome
+   home:
+      permission: claymc.home
+   kits:
+      permission: claymc.kits  
+   spawn:
+      permission: claymc.spawn
+   tpa:    

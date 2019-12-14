@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LobbySystemClay:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LobbySystemClay_jar</output-path>
+    <root id="archive" name="LobbySystemClay.jar">
+      <element id="module-output" name="LobbySystemClay" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/Alles/PermissionsEx.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/CoinsAPI.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/Programmieren/spigot.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/Nick[L] (11).jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

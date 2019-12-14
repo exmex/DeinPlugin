@@ -1,0 +1,5 @@
+name: Leaderboards
+version: 1.0
+main: topten.Main
+commands:
+   top:

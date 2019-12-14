@@ -1,0 +1,8 @@
+name: ClayHandler
+version: 1.0
+author: WeLoveSpigotPlugins
+main: clayhandler.Main
+
+commands:
+  setclays:
+  getserverclays:

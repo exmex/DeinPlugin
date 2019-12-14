@@ -1,0 +1,11 @@
+name: Hub
+version: 1.0
+author: Leitung
+main: de.leitung.lobby.classes.Main
+
+commands:
+  Premium:
+  addclays:
+  setevent:
+  globalmute:
+  outofmap:

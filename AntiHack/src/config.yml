@@ -1,0 +1,20 @@
+# Vielen Dank, dass du mein Plugin verwendest. 
+# Falls du Fehler oder Anregungen hast, dann lasse mir deine Ideen gerne zukommen!
+# Entwickler: https://youtube.com/welovespigotplugins
+
+# AntiCheat
+
+# Ändere die Zeichenfolge, welche vor jeder Nachricht versendet werden soll (Prefix)
+  Prefix: '&8[&6AntiCheat&8] '
+  
+# Ändere die Nachricht, welche kommen soll, falls ein Spieler nicht genügend Rechte hat
+  KeineRechte: '&cDu hast keine Rechte, um dies zu tun'
+  
+# NOKNOCKBACKCOMMAND
+  # Hier kannst du Einstellungen zu dem KnockbackCommand tätigen.
+  NoKnockbackCommandBenutzung: '&eGebe &6/NB [Spieler] &eein, um den Knockback eines Spielers zu checken.'
+  NoKnockbackCommandChecking: '&eDer Spieler &6%Player% &ewird auf NoKnockback geprüft...'
+  NoKnockbackCommandPing: '&6%Player%'s &ePing: &a%Ping%'
+  
+# Das Plugin ist in Entwicklung, sodass nicht alle Nachrichten und Funktionen veränderbar sind. Dies wird sich jedoch in gewissen Zeitabständen ändern.
+# Alle Funktionen werden verbessert. Dies ist die erste Version. Somit entschuldige ich mich für alle Fehler.
